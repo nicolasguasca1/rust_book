@@ -2,7 +2,7 @@
 use std::io;
 
 fn get_nth(n:u32) -> u32 {
-            let mut result:u32;
+            let result:u32;
             if n == 0 {
                 result = 0;
             } else if n == 1 {
